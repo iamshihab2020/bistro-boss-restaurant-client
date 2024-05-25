@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"; // ES6
 
-const Menu = ({ item }) => {
+const PopMenu = ({ item }) => {
   const { name, recipe, image, price } = item;
   return (
     <div className="flex items-center justify-start gap-3 h-36 max-w-[640px] ">
@@ -20,8 +20,8 @@ const Menu = ({ item }) => {
   );
 };
 
-Menu.propTypes = {
+PopMenu.propTypes = {
   item: PropTypes.object.isRequired,
 };
 
-export default Menu;
+export default PopMenu;

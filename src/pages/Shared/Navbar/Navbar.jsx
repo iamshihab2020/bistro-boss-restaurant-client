@@ -1,5 +1,5 @@
 import {  NavLink } from "react-router-dom";
-import { Helmet, HelmetProvider } from "react-helmet-async";
+
 
 const Navbar = () => {
 
@@ -10,6 +10,9 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink to={`/menu`}>Menu</NavLink>
+      </li>
+      <li>
+        <NavLink to={`/order/salad`}>Order</NavLink>
       </li>
     </>
   );
